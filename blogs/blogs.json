@@ -1,0 +1,21 @@
+{
+  "repo": "hallow",
+  "feeds": [
+    {
+      "source": "https://hallow.com/feed/",
+      "feed_url": "https://hallow.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://hallow.com",
+      "feed_url": "https://hallow.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 25,
+  "fetched": "2026-07-25T15:00:33Z"
+}

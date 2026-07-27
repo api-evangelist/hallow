@@ -1,22 +1,50 @@
 aid: hallow
 name: Hallow
-description: Hallow is a company surfaced as a portfolio company of general-catalyst, homebrew, uncork-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Hallow is the #1 Catholic and Christian prayer, meditation, and Bible app, offering
+  guided daily prayer, the Rosary, Lectio Divina, the Examen, Christian meditation,
+  faith-based sleep stories, Scripture readings, and audio-guided sessions led by
+  well-known voices. Founded in 2018 and based in Chicago, Hallow is a consumer mobile
+  application (iOS and Android) with a subscription tier (Hallow Plus), and it runs
+  programs for parishes, families, and gifting. Hallow does not currently publish a
+  public developer API, SDKs, or developer portal, so this profile captures its public
+  web and product surface. Backed by General Catalyst, Homebrew, and Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/hallow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://hallow.com/opengraph-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 - homebrew
 - uncork-capital
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: consumer-app-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Prayer
+- Meditation
+- Faith
+- Religion
+- Catholic
+- Christian
+- Bible
+- Consumer App
+- Mobile App
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://hallow.com
+- type: Blog
+  url: https://hallow.com/blog/
+- type: Support
+  url: https://help.hallow.com
+- type: Login
+  url: https://hallow.com/login/
+- type: PrivacyPolicy
+  url: https://hallow.com/privacy-policy/
+- type: TermsOfService
+  url: https://hallow.com/terms-of-service/
+- type: About
+  url: https://hallow.com/about/
+- type: Community
+  url: https://hallow.com/community/
+- type: Press
+  url: https://hallow.com/press/
+- type: Gift
+  url: https://hallow.com/gift/
+- type: Parishes
+  url: https://try.hallow.com/forparishes
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
